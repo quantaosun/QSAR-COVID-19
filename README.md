@@ -1,5 +1,5 @@
 # QSAR-ML
-# If you don't have in-house compunds and bioactivity data, and want to obtain a QSAR from public data mining, please run part1.ipynb, if you have enough in-house data like more than 30 or more, you should start from 2end.ipynb
+# If you don't have in-house compunds and bioactivity data, and want to obtain a QSAR from public data mining, please run part1.ipynb, if you have enough in-house data like more than 30 or above, you should start from 2end.ipynb
 We will not discuss start from online as it is pretty straightforward, but foucus on the second senario
 
 # Starting from you local structures and bioactivities
