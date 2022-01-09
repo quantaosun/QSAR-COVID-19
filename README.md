@@ -2,6 +2,9 @@
 70% of the notebook coding are borrowed from https://github.com/dataprofessor as claimed inside some of the notebooks, with modification.
 
 30% of the notebook is written from scratch.
+在全球新冠病毒感染人数激增的同时，针对该病毒的小分子化合物活性数据也在快速增长，如何分析理解这些数据至关重要。这个项目展示了如何使用基于机器学习的定量构效关系，以化学分子的分子描述符为自变量，对病毒的半抑制浓度为因变量，进行了定量分析，构建了数学模型，可以帮助人们理解已知化合物的表现，以及预测未知化合物的表现。本项目提供了两个途径来构建模型，第一个为基于公开数据库的方式，第二个为基于本地未公开数据的方式。
+30% of the notebook is written from scratch.
+30% of the notebook is written from scratch
 # Pre-conditions: Jupyter notebook
 Windows, Mac or Linux erither is fine as long as you have a jupyter notebook installed.
 # What is it does
