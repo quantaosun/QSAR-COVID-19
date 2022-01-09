@@ -1,7 +1,7 @@
 # QSAR fro COVID-19
-Around 70% of the notebook coding，especially the key method of calculating molecular descriptors are borrowed from https://github.com/dataprofessor as claimed inside some of the notebooks. 
+Around 60% of the notebook coding，especially the key method of calculating molecular descriptors are borrowed from https://github.com/dataprofessor as claimed inside some of the notebooks. 
 
-Around 30% of the notebook is written from scratch, especially the local version.
+Around 40% of the notebook is written from scratch, especially the local version.
 
 在全球新冠病毒感染人数激增的同时，针对该病毒的小分子化合物活性数据也在快速增长，如何分析理解这些数据对于最终研制小分子化学特效药至关重要。这个项目展示了如何使用基于机器学习的定量构效关系，以化学分子的分子描述符为自变量，对病毒的半抑制浓度为因变量，进行了定量分析，构建了数学模型，可以帮助人们理解已知化合物的表现，以及预测未知化合物的表现。本项目提供了两个途径来构建模型，第一个为基于公开数据库的方式，第二个为基于本地未公开数据的方式。
 
