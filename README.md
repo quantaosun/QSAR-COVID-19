@@ -1,9 +1,15 @@
 # QSAR fro COVID-19
-70% of the notebook coding are borrowed from https://github.com/dataprofessor as claimed inside some of the notebooks, with modification.
+Around 70% of the notebook coding，especially the key method of calculating molecular descriptors are borrowed from https://github.com/dataprofessor as claimed inside some of the notebooks. 
 
-30% of the notebook is written from scratch.
+Around 30% of the notebook is written from scratch, especially the local version.
 
-在全球新冠病毒感染人数激增的同时，针对该病毒的小分子化合物活性数据也在快速增长，如何分析理解这些数据对于最终研制小分子化学特效药至关重要。这个项目展示了如何使用基于机器学习的定量构效关系，以化学分子的分子描述符为自变量，对病毒的半抑制浓度为因变量，进行了定量分析，构建了数学模型，可以帮助人们理解已知化合物的表现，以及预测未知化合物的表现。本项目提供了两个途径来构建模型，第一个为基于公开数据库的方式，第二个为基于本地未公开数据的方式。就目前而言，数学模型表现欠佳，如下图，当使用80%作为训练集，来预测20%时，第二张图失败了，预测与实际有较大偏差，但这可能主要来源于较小的集合数量，随之化合物的进一步激增，未来该方法的表现可能会有所提高。
+在全球新冠病毒感染人数激增的同时，针对该病毒的小分子化合物活性数据也在快速增长，如何分析理解这些数据对于最终研制小分子化学特效药至关重要。这个项目展示了如何使用基于机器学习的定量构效关系，以化学分子的分子描述符为自变量，对病毒的半抑制浓度为因变量，进行了定量分析，构建了数学模型，可以帮助人们理解已知化合物的表现，以及预测未知化合物的表现。本项目提供了两个途径来构建模型，第一个为基于公开数据库的方式，第二个为基于本地未公开数据的方式。
+
+本项目遵循训练，测试，和外部（预测）验证，三个步骤，经过一个简单的基于IC50 的新冠病毒的139个化合物的学习，测试，发现此种情况下的模型完全无法正确预测内部测试集合，因此更不用提外部（预测）验证集合了，但这并不代表模型的构建方法有问题，而可能是数据集本身的体量太小。
+
+经过简单的修改，该方法可拓展到任何其他药物靶点，默认采用的分子描述符为pubchem分子描述符，经过修改也可采用诸如RDKT 分子描述符等，而数学建模也采用了机器学习中常见的随机森林回归模型，自变量的维度达到了几百个，相对于传统的几个几十个的分子描述符更容易捕捉到决定分子活性的背后因素。
+
+当使用80%作为训练集，来预测20%时，第三张图表现很差，预测与实际有较大偏差，随之化合物的进一步激增，未来该方法的表现可能会有所提高。本项目并不能提供一个完美的预测新冠病毒的模型，全世界的科学家到今天也很难有人做到这一点，这个方法主要是提供思路和提供讨论的空间。
 
 ![image](https://user-images.githubusercontent.com/75652473/148683133-8342aa53-e92b-4fc2-bb56-8d1a5ef02eac.png)
 ![image](https://user-images.githubusercontent.com/75652473/148683515-e270c7b4-61b7-48f7-88fa-2d2080edb611.png)
