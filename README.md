@@ -9,7 +9,8 @@
 ![image](https://user-images.githubusercontent.com/75652473/148683515-e270c7b4-61b7-48f7-88fa-2d2080edb611.png)
 
 
-100% as training set--------------- 80% as trainning set
+100% as training set---------------------- 80% as trainning set
+
 ![image](https://user-images.githubusercontent.com/75652473/148683138-cafaf08c-de90-4930-9d64-45b329345e52.png)
 
 ----------20% tested
