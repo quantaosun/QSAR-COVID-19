@@ -6,6 +6,8 @@ This senario is not discussed for the moment, as it is easier to handle compared
 # How to use it
 run public.ipynb, 2,3,4,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
 # 2. Starting from you local structures and bioactivities for a certain target
+
+# How to use it
 run local.ipynb, 2,3,4,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
 
 Before you could run a local version, do the following as preconditions,
