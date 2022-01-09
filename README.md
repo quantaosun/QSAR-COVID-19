@@ -9,11 +9,11 @@ This repository is to build a QSAR model based on molecular descriptors and bioa
 # 1. Starting from public data
 This senario is not discussed for the moment, as it is easier to handle compared to the second.
 # How to use it
-run public.ipynb, 2,3,4,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
+run public.ipynb, 2,3,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
 
 # 2. Starting from your local data
 # How to use it
-run local.ipynb, 2,3,4,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
+run local.ipynb, 2,3,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
 
 Before you could run a local version, do the following before hand,
 
