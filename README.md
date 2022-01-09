@@ -16,5 +16,5 @@ jupyter notebook 2nd.ipynb
 ```
 If you use Unix-like terminal, 
 ```
-git clone 
+git clone https://github.com/quantaosun/QSAR-ML.git
 ```
