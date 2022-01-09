@@ -13,5 +13,5 @@ If you use Windows, just use mouse to download this github files as a ZIP file, 
 in conda prompt terminal, cd to this github folder, 
 
 ```
-jupyter notebook QSAR-ML.ipynb
+jupyter notebook 2nd.ipynb
 ```
