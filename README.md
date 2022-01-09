@@ -1,7 +1,7 @@
 # QSAR-ML
 # Two senarios are possible
 # 1. Starting from public published bioactivity for a certain target
-# 2. Starting from you local structures and bioactivities
+# 2. Starting from you local structures and bioactivities for a certain target
 This repository is to build a QSAR model based on molecular descriptors and bioactivities, with the help of machine learning model random forest regression.
 
 1. Prepare a text file that contains all the molecules' smiles string, you can obtain it from ChemDraw or any other means you prefer, note that there are various variants of smile, what I used here is the conventional one. All strings shoud be put in a one-per-line manner. save it as "smiles.text"
