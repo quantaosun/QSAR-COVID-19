@@ -1,5 +1,6 @@
 # QSAR fro COVID-19
-70% of the notebook coding are borrowed from https://github.com/dataprofessor as claimed inside some of the notebooks, with modification
+70% of the notebook coding are borrowed from https://github.com/dataprofessor as claimed inside some of the notebooks, with modification.
+
 30% of the notebook is written from scratch.
 # Pre-conditions: Jupyter notebook
 Windows, Mac or Linux erither is fine as long as you have a jupyter notebook installed.
