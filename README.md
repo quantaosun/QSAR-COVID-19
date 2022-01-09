@@ -28,21 +28,26 @@ The QSAR model is to take molecular descriptors as independent variables,  and b
 # 1. Starting from public data
 This senario is not discussed for the moment, as it is easier to handle compared to the second.
 # How to use it
-run 1_public.ipynb, 2_build,3_build,5_build in sequence to build a QSAR, then run 3_build,5_build to predict unknow molecules.
+run 1_public.ipynb, 2_build_public,3_build_public,5_build_all in sequence to build a QSAR, then run 3_external_prediction,5_external_prediction to predict unknow molecules.
+
+Before you could do the external prediction, you should create a file called "unknow.txt" containing all the smiles you want to predict or validate.
 
 # 2. Starting from your local data
-# How to use it
-run 1_local.ipynb, 3_build_local,5_build in sequence to build a QSAR, then run 3_prediction,5_prediction to predict unknow molecules.
+# How to use it 
+run 1_local.ipynb, 3_build_local,5_build_all in sequence to build a QSAR, then run 3_external_prediction,5_external_prediction to predict unknow molecules.
 
 Before you could run a local version, do the following before hand,
 
 1. Prepare a text file that contains all the molecules' smiles string, you can obtain it from ChemDraw or any other means you prefer, note that there are various variants of smiles, what I used here is the conventional one. All strings shoud be put in a one-per-line manner. save it as "structures.txt", see the attatched example.
 2. Prepare another text file that contains all the bioactivities in a one per line manner, to match up the first "bioactivity.txt" file, see the attached example.
 
-If you use Unix-like terminal, 
+Before you could do the external prediction, you should create a file called "unknow.txt" containing all the smiles you want to predict or validate.
+
+Windows: Directly download the ZIP file and extract to use.
+
+Unix-like terminal and Mac 
 ```
 git clone https://github.com/quantaosun/QSAR-ML.git
 ```
 then you can use Jupyter notebook to run the notebook in order.
-# Drawbacks
-There is no visulization, you may find hard to demonstrate your result to others, nevertheless, it is no less accurate to build QSAR compared to conventional field based 3D-QSAR.
+
