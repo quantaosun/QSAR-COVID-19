@@ -21,7 +21,7 @@ run 1_public.ipynb, 2_build,3_build,5_build in sequence to build a QSAR, then ru
 
 # 2. Starting from your local data
 # How to use it
-run 1_local.ipynb, 3_build,5_build in sequence to build a QSAR, then run 3_prediction,5_prediction to predict unknow molecules.
+run 1_local.ipynb, 3_build_local,5_build in sequence to build a QSAR, then run 3_prediction,5_prediction to predict unknow molecules.
 
 Before you could run a local version, do the following before hand,
 
