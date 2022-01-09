@@ -17,11 +17,11 @@ The QSAR model is to take molecular descriptors as independent variables,  and b
 # 1. Starting from public data
 This senario is not discussed for the moment, as it is easier to handle compared to the second.
 # How to use it
-run public.ipynb, 2,3,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
+run 1_public.ipynb, 2_build,3_build,5_build in sequence to build a QSAR, then run 3_build,5_build to predict unknow molecules.
 
 # 2. Starting from your local data
 # How to use it
-run local.ipynb, 2,3,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
+run 1_local.ipynb, 3_build,5_build in sequence to build a QSAR, then run 3_prediction,5_prediction to predict unknow molecules.
 
 Before you could run a local version, do the following before hand,
 
