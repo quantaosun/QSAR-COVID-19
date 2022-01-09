@@ -15,7 +15,7 @@ run public.ipynb, 2,3,4,5 in sequence to build a QSAR, then run 3,5 of another r
 # How to use it
 run local.ipynb, 2,3,4,5 in sequence to build a QSAR, then run 3,5 of another repository https://github.com/quantaosun/QSAR-Chembl-Prediction to predict unknow molecules.
 
-Before you could run a local version, do the following as preconditions,
+Before you could run a local version, do the following before hand,
 
 1. Prepare a text file that contains all the molecules' smiles string, you can obtain it from ChemDraw or any other means you prefer, note that there are various variants of smiles, what I used here is the conventional one. All strings shoud be put in a one-per-line manner. save it as "structures.txt", see the attatched example.
 2. Prepare another text file that contains all the bioactivities in a one per line manner, to match up the first "bioactivity.txt" file, see the attached example.
