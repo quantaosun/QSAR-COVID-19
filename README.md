@@ -32,7 +32,7 @@ A fundamental question is then, can we build a QSAR model for all these data? Th
 The QSAR model is to take molecular descriptors as independent variables,  and bioactivities as dependent variables, with the help of machine learning model random forest regression, to build a QSAR model either based on public Chembl bioactivity or your local bioactivity for SARS-COV-2 or if you could change the target, for any other target.
 
 # 1. Starting from public data
-This scenario is not discussed for the moment, as it is easier to handle compared to the second.
+
 # How to use it
 run 1_public.ipynb, 2_build_public,3_build_public,5_build_all in sequence to build a QSAR, then run 3_external_prediction,5_external_prediction to predict unknown molecules.
 
