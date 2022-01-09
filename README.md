@@ -7,6 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/75652473/148683133-8342aa53-e92b-4fc2-bb56-8d1a5ef02eac.png)
 ![image](https://user-images.githubusercontent.com/75652473/148683138-cafaf08c-de90-4930-9d64-45b329345e52.png)
+100% as training set
 
 
 # Pre-conditions: Jupyter notebook
