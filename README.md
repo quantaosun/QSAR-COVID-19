@@ -5,7 +5,9 @@
 # Pre-conditions: Jupyter notebook
 Windows, Mac or Linux erither is fine as long as you have a jupyter notebook installed.
 # What is it does
-As of January 9th 2022, the pandemic has been there for almost 2 years, with an unprecident nunber of infected people, there are also a great increse in relative research data like chemical compounds that could potentially inhibit the virus. To date when this is written, around 14,355 bioactivity toward small molecules, have benn recorded in the public chembl database. A fundamental question is then, can we build a QSAR model for all these data ? This is exactly what this project try to do. Not all bioactivities are comparable to each other, so this QSAR model will not be perfect but it will gives you some sense of the progress of small molecules based inhibitors against COVID-19.
+As of January 9th 2022, the pandemic has been there for almost 2 years, with an unprecident nunber of infected people, there are also a great increse in relative research data like chemical compounds that could potentially inhibit the virus. To date when this is written, around 14,355 bioactivity toward small molecules, have benn recorded in the public chembl database.
+
+A fundamental question is then, can we build a QSAR model for all these data ? This is exactly what this project try to do. Not all bioactivities are comparable to each other, so this QSAR model will not be perfect but it will gives you some sense of the progress of small molecules based inhibitors against COVID-19.
 
 This repository is to build a QSAR model based on molecular descriptors and bioactivities, with the help of machine learning model random forest regression, to build a QSAR model either based on public chembl bioactivity or your local bioactivity for SARS-COV-2, or if you could change the target, for any other target.
 
