@@ -16,6 +16,10 @@ git clone https://github.com/quantaosun/QSAR-ML.git
 ```
 then you can use Jupyter notebook to run the notebook in order.
 
+# Performance
+
+Though the training looks good, the test is not.
+
 ![image](https://user-images.githubusercontent.com/75652473/148683133-8342aa53-e92b-4fc2-bb56-8d1a5ef02eac.png)
 ![image](https://user-images.githubusercontent.com/75652473/148683515-e270c7b4-61b7-48f7-88fa-2d2080edb611.png)
 
