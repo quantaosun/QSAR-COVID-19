@@ -3,6 +3,19 @@ Around 60% of the notebook coding, especially the key method of calculating mole
 
 Around 40% of the notebook is written from scratch, especially the local version.
 
+# Pre-conditions: Jupyter notebook
+Windows, Mac or Linux either is fine as long as you have a Jupyter notebook installed.
+
+# Download and use it
+
+Windows: Directly download the ZIP file and extract it to use.
+
+Unix-like terminal and Mac
+```
+git clone https://github.com/quantaosun/QSAR-ML.git
+```
+then you can use Jupyter notebook to run the notebook in order.
+
 ![image](https://user-images.githubusercontent.com/75652473/148683133-8342aa53-e92b-4fc2-bb56-8d1a5ef02eac.png)
 ![image](https://user-images.githubusercontent.com/75652473/148683515-e270c7b4-61b7-48f7-88fa-2d2080edb611.png)
 
@@ -13,9 +26,6 @@ Around 40% of the notebook is written from scratch, especially the local version
 
 ----------20% tested
 
-
-# Pre-conditions: Jupyter notebook
-Windows, Mac or Linux either is fine as long as you have a Jupyter notebook installed.
 # What is it does
 As of January 9th 2022, the pandemic has been there for almost 2 years, with an unprecedented number of infected people, there is also a great increase in relative research data like chemical compounds that could potentially inhibit the virus. To date when this is written, around 14,355 bioactivities toward small molecules, have been recorded in the public Chembl database.
 
@@ -41,13 +51,6 @@ Before you could run a local version, do the following beforehand,
 
 Before you could do the external prediction, you should create a file called "unknow.txt" containing all the smiles you want to predict or validate.
 
-Windows: Directly download the ZIP file and extract it to use.
-
-Unix-like terminal and Mac
-```
-git clone https://github.com/quantaosun/QSAR-ML.git
-```
-then you can use Jupyter notebook to run the notebook in order.
 # Note
 For the sake of this example, I only used 139 molecules with IC50, but there are actually thousands of other bioactivities available out there, so check it out yourself and see if you could improve the model performance.
 
