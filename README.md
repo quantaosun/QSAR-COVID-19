@@ -1,10 +1,16 @@
 # QSAR fro COVID-19
 Around 60% of the notebook coding, especially the key method of calculating molecular descriptors are borrowed from https://github.com/dataprofessor as claimed inside the notebooks.
 
-Around 40% of the notebook is written from scratch, especially the local version. 
+Around 40% of the notebook is written from scratch, especially the local version. In case you need reference, the following maybe considered
+
+The paper describing how to calculate molecular descriptors https://peerj.com/articles/2322/ 
+
+chembl database https://www.ebi.ac.uk/chembl/ from where we obtain the public data.
+
+sk-learn https://scikit-learn.org/stable/ to build the regression model.
 
 # Pre-conditions: Jupyter notebook
-Windows, Mac or Linux either is fine as long as you have a Jupyter notebook installed.
+Windows, Mac or Linux either is fine as long as you have a Jupyter notebook installed. For people have never used Jupyter Notebooks, here is a great article you can read to get started https://link.springer.com/protocol/10.1007/978-1-0716-0150-1_3.
 
 # Download and use it
 
