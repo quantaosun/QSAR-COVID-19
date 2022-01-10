@@ -1,7 +1,7 @@
 # QSAR fro COVID-19
 Around 60% of the notebook coding, especially the key method of calculating molecular descriptors are borrowed from https://github.com/dataprofessor as claimed inside the notebooks.
 
-Around 40% of the notebook is written from scratch, especially the local version.
+Around 40% of the notebook is written from scratch, especially the local version. 
 
 # Pre-conditions: Jupyter notebook
 Windows, Mac or Linux either is fine as long as you have a Jupyter notebook installed.
