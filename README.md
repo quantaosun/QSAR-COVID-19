@@ -56,7 +56,7 @@ Before you could run a local version, do the following beforehand,
 Before you could do the external prediction, you should create a file called "unknow.txt" containing all the smiles you want to predict or validate.
 
 # Note
-For the sake of this example, I only used 139 molecules with IC50, but there are actually thousands of other bioactivities available out there, so check it out yourself and see if you could improve the model performance.
+For the sake of this example, I only used 139 molecules with IC50, but there are actually thousands of other bioactivities available out there, so check it out yourself and see if you could improve the model performance. Alternatively, you can use Kd, Ki or what you like as the bioactivity, just remember you can't build a QSAR used different tpyes.
 
 # Chinese description（中文简介)
 
