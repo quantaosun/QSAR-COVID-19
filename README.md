@@ -18,7 +18,7 @@ Windows: Directly download the ZIP file and extract it to use.
 
 Unix-like terminal and Mac
 ```
-git clone https://github.com/quantaosun/QSAR-ML.git
+git clone https://github.com/quantaosun/QSAR-COVID-19.git
 ```
 then you can use Jupyter notebook to run the notebook in order.
 
